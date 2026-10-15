@@ -5,3 +5,9 @@
 ```
 mix new elixir_kvstore
 ```
+
+```
+mix test
+```
+
+Task: try modifying the docs and test again.
