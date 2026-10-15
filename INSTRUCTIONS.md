@@ -3,5 +3,5 @@
 ## Creating a project
 
 ```
-mix new kvstore
+mix new elixir_kvstore
 ```
