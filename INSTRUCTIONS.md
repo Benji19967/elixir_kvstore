@@ -12,14 +12,7 @@ mix test
 
 Task: try modifying the docs and test again.
 
-Task: add this data in `data/cities.csv`
-```
-Bern,3000
-Fribourg,1700
-Neuchatel,2000
-```
-
-Task: add a function to read the data and run it.
+## Running code interactively
 
 ```
 iex -S mix
@@ -31,3 +24,31 @@ after making changes:
 ```
 iex> recompile()
 ```
+
+## Reading data from a file
+
+Add this data in `data/cities.csv`
+
+```
+City,PostalCode
+Bern,3000
+Fribourg,1700
+Neuchatel,2000
+```
+
+Task: add a function to read the data and run it.
+
+### Without external libraries
+
+Use builtin modules `File`, `Stream`, `Enum`, `Map`, `String`.
+
+### With `nimble_csv`
+
+Update deps in `mix.exs`
+
+```
+mix deps.get
+mix deps.compile
+```
+
+Notice the newly generated `mix.lock` file.
