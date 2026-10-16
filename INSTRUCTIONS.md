@@ -40,7 +40,7 @@ Task: add a function to read the data and run it.
 
 ### Without external libraries
 
-Use builtin modules `File`, `Stream`, `Enum`, `Map`, `String`.
+Use builtin modules `File.stream`, `Stream.map`, `Enum.drop`, `Enum.to_list`, `Map.new`, `String.split`, `String.trim_trailing`.
 
 ### With `nimble_csv`
 
