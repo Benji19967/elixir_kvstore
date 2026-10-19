@@ -10,6 +10,8 @@ Install Elixir: https://elixir-lang.org/install/
 - Use `mix` to add an external library
 - Load data from a file and transform it using Elixir
 
+If you follow the steps in this file, you should be able to reproduce this directory (except for this file, `INSTRUCTIONS.md`).
+
 ## Creating a project
 
 ```
