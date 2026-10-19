@@ -17,6 +17,7 @@ Task: try modifying the docs and test again.
 ```
 iex -S mix
 iex> c("lib/elixir_kvstore.ex")
+iex> ElixirKvstore.read_data("data/cities.csv")
 ```
 
 after making changes:
