@@ -26,10 +26,15 @@ Task: try modifying the docs and test again.
 
 ## Running code interactively
 
+Launch the Elixir interactive shell:
 ```
 iex -S mix
+```
+
+Load a module in the shell and run a function from that module:
+```
 iex> c("lib/elixir_kvstore.ex")
-iex> ElixirKvstore.read_data("data/cities.csv")
+iex> ElixirKvstore.hello()
 ```
 
 after making changes:
@@ -49,7 +54,11 @@ Fribourg,1700
 Neuchatel,2000
 ```
 
-Task: add a function to read the data and run it.
+Task: add a function to read the data and run it:
+
+```
+iex> ElixirKvstore.read_data("data/cities.csv")
+```
 
 ### Without external libraries
 
