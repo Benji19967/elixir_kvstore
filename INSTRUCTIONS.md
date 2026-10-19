@@ -55,8 +55,16 @@ Use builtin modules `File.stream`, `Stream.map`, `Enum.drop`, `Enum.to_list`, `M
 
 ### With `nimble_csv`
 
-Update deps in `mix.exs`
+Update deps in `mix.exs`, i.e. add `nimble_csv` as a dependency:
 
+```
+  defp deps do
+  [
+    {:nimble_csv, "~> 1.1"}
+  ]
+```
+
+Then you can get and compile the external dependencies:
 ```
 mix deps.get
 mix deps.compile
