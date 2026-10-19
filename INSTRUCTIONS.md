@@ -1,5 +1,15 @@
 # KV Store in Elixir
 
+## Prerequisite
+
+Install Elixir: https://elixir-lang.org/install/
+
+## Goals
+
+- Create an Elixir project from scratch using mix
+- Use `mix` to add an external library
+- Load data from a file and transform it using Elixir
+
 ## Creating a project
 
 ```
