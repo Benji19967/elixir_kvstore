@@ -37,7 +37,7 @@ iex> c("lib/elixir_kvstore.ex")
 iex> ElixirKvstore.hello()
 ```
 
-after making changes:
+Every time you make code changes you will need to recompile to see the effects of your changes in the shell:
 
 ```
 iex> recompile()
