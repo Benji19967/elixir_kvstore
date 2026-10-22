@@ -1,4 +1,4 @@
-# KV Store in Elixir
+# KV store in Elixir
 
 ## Prerequisite
 
